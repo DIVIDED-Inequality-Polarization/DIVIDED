@@ -1,3 +1,3 @@
-Website: https://miriamsorace.github.io/DIVIDED.github.io
+Website: https://miriamsorace.github.io/DIVIDED
 
 
