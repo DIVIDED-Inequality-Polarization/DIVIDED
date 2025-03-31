@@ -1,3 +1,3 @@
-Website: https://miriamsorace.github.io/DIVIDED
+Website: https://divided-inequality-polarization.github.io/DIVIDED
 
 
