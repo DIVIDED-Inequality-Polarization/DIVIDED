@@ -181,14 +181,26 @@ i.service-icon {
 
 /* Call to Action */
 
+/* Call to Action */
 .call-to-action {
   color: #ffffff;
-  background: #0a5175;
+  background: url(../img/blue.png) no-repeat center center fixed; /* Use the same blue background as the callout */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding: 50px 0;
 }
 
 .call-to-action .btn {
   margin: 10px;
+  background-color: #ffffff; /* Ensure the button has a clean background */
+  color: #0a5175; /* Optional: Change text color of the button */
+}
+
+.call-to-action .btn:hover {
+  background-color: #0a5175; /* Optional: Change hover color of the button */
+  color: #ffffff; /* Change text color when hovered */
 }
 
 /* Map */
