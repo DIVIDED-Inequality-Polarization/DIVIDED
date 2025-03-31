@@ -7,24 +7,49 @@
     <meta name="author" content="Miriam Sorace">
     <title>DIVIDED - Research Participants Video</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Only keep fonts and colors from the original CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">  <!-- Bootstrap for basic layout -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet"> <!-- Custom styles with fonts and colors -->
     
-    <!-- Add custom CSS here -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <style>
+        /* You can add custom styles here to keep only the necessary parts */
+        body {
+            background-color: #fff; /* White background for simplicity */
+            color: #333; /* Default text color */
+            font-family: 'Helvetica', 'Arial', sans-serif; /* Use the fonts you want */
+        }
+
+        h1, h3 {
+            color: #333; /* Adjust the text color as per original */
+            font-family: 'Helvetica', 'Arial', sans-serif;
+        }
+
+        /* If you want to remove header images or other parts, you can override them here */
+        .header {
+            display: none; /* Remove header images */
+        }
+
+        .container {
+            margin-top: 50px; /* Ensure there's enough spacing for content */
+        }
+
+        .btn-primary {
+            background-color: #007bff; /* Keep primary button color */
+            border-color: #007bff;
+        }
+    </style>
 </head>
 <body>
-    <!-- Video Page Header -->
-    <div class="header">
-        <div class="container text-center">
-            <h1>Research Participants Needed: Games and Politics</h1>
-            <p>We are looking for research participants to help us test political games. Join our lab and get a chance to win £300!</p>
-        </div>
+
+    <!-- Page content -->
+    <div class="container text-center">
+        <h1>Research Participants Needed: Games and Politics Lab Experiment </h1>
+        <p>We are looking for research participants to help us test political games. Join our lab and get a chance to win £300!</p>
     </div>
 
     <!-- Video Section -->
     <div class="container text-center">
-        <h3>For more information check out the video below:</h3>
+        <h3>Check Out the Video Below:</h3>
         <video width="640" height="360" controls>
             <source src="https://raw.githubusercontent.com/DIVIDED-Inequality-Polarization/DIVIDED/main/FILES/DIVIDED_recruitment_video.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -39,5 +64,6 @@
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
+
 </body>
 </html>
